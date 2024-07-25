@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #fff;
+}
+
+html {
+	background-color: black;
+}
+
+.neonWhiteBlock {
+	box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff;
+}
+
+.neonWhiteText {
+	text-shadow: 0 0 7px #fff;
+}
+
+.neonRedText {
+	text-shadow: 0 0 7px red;
+}
+
+.neonBlueText {
+	text-shadow: 0 0 7px blue;
+}
+
+.center {
+	margin-left: 50%;
+	transform: translate(-50%);
+}

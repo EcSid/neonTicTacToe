@@ -1,0 +1,17 @@
+.button {
+	padding: 0.8rem 0.8rem;
+	border: 2px solid #fafafa;
+	background-color: black;
+	color: #fafafa;
+	font-weight: bold;
+	border-radius: 16px;
+	position: absolute;
+	left: 0;
+	top: -14%;
+	box-shadow: 0 0 7px #fff inset, 0 0 10px #fff;
+	text-shadow: 0 0 7px;
+}
+
+.button:hover {
+	cursor: pointer;
+}

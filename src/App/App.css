@@ -1,0 +1,48 @@
+.father-block {
+	margin-left: 50%;
+	margin-top: 7%;
+	transform: translate(-50%);
+	width: 570px;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+
+@media (800px < width < 1290px) {
+	.father-block {
+		margin-top: 10%;
+	}
+}
+
+@media (664px < width < 900px) {
+	.father-block {
+		margin-top: 13%;
+	}
+}
+@media (594px < width < 664px) {
+	.father-block {
+		margin-top: 14%;
+	}
+}
+@media (width < 594px) {
+	.father-block {
+		margin-top: 15%;
+		width: 360px;
+		height: 360px;
+	}
+}
+
+.turn {
+	position: absolute;
+	left: 0;
+	bottom: -8%;
+	font-size: 19px;
+}
+
+.red {
+	color: red;
+}
+
+.blue {
+	color: blue;
+}
