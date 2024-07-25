@@ -53,6 +53,10 @@ const App = () => {
 		}
 	}, [turn])
 
+	useEffect(() => {
+		if (window.innerWidth < 570) alert('Во избежание багов, переверните устройство в горизонтальное положение')
+ }, [])
+
 	return (
 		<div className='father-block'>
 			<Button onClick={() => window.location.reload()}>Очистить поле</Button>
