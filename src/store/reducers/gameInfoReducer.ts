@@ -11,7 +11,7 @@ export interface IActionField {
 }
 
 const initialState: IGameInfoState = {
-	turn: 'zero',
+	turn: 'cross',
 	field: [[], [], []],
 }
 
